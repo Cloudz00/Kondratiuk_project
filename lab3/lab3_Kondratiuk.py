@@ -42,7 +42,7 @@ division=x/y; print(division)"""
 y=1/(x+(1/(x+(1/(x+(1/(x+(1/x))))))))
 print("y- ",y)"""
 
-hours=int(input("Введіть початок події. Години - "))
+"""hours=int(input("Введіть початок події. Години - "))
 for i in range(1,100):
     if hours < 0 or hours > 24: hours=int(input("Неможливий час, спробуйте ще раз. Години - "))
     else:
